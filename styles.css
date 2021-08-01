@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+body{
+    font-family: 'Georama', sans-serif;
+    background-color: lightblue;
+}
+
+.container{
+    max-width: 850px;
+    margin: auto; 
+}
+
+.section{
+    text-align: center;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.heading{
+    margin: auto;
+    padding: 3rem 0rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box{
+    margin: 2rem 0rem 2rem 0rem;
+    width: 500px;
+    height: 50px;
+    border-radius: 5rem;
+    background-color:orange;
+}
+
+.text{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.footer{
+    background-color:lightslategrey;
+    margin-top: 2rem;
+    padding: 2rem 0rem 0rem 0rem;
+    height: 85px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-header{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.footer-ul-links{
+    padding-left: 0px;
+}
+
+.lists-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+    padding-left: 0px;
+}
