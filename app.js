@@ -4,7 +4,6 @@ var a3 = document.querySelector("#ang3");
 var sub = document.querySelector("#submit");
 var res = document.querySelector("#result");
 
-
 function anglesHandler(){
     t1 = parseInt(a1.value);
     t2 = parseInt(a2.value);
@@ -27,6 +26,4 @@ function anglesHandler(){
     }
 }
 
-
 sub.addEventListener("click", anglesHandler);
-
