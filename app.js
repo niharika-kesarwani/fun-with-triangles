@@ -20,9 +20,9 @@ function anglesHandler(){
         res.innerText="Please enter whole numbers as angles !!";
     }
     else if (sum===180){
-        res.innerText="YAYY! These angles can make a triangle !!";
+        res.innerText="YAYY !! These angles can make a triangle !!";
     } else {
-        res.innerText="Oops! These angles cannot make a triangle :(";
+        res.innerText="Oops !! These angles cannot make a triangle :(";
     }
 }
 
