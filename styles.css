@@ -23,6 +23,11 @@ body{
     text-align: center;
 }
 
+/* #canvas{
+    width: 150;
+    height: 150;
+} */
+
 .box{
     margin: 2rem 0rem 2rem 0rem;
     width: 500px;

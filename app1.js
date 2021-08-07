@@ -1,20 +1,20 @@
-var s1 = document.querySelector("#side1");
-var s2 = document.querySelector("#side2");
-var sub2 = document.querySelector("#submit2");
+var s1 = document.querySelector("#ang1");
+var s2 = document.querySelector("#ang2");
+var sub2 = document.querySelector("#submit");
 var res2 = document.querySelector("#result2");
 
-function draw(){
-    var canvas = document.getElementById('canvas');
-    if(canvas.getContext){
-        var context = canvas.getContext('2d');
-        context.beginPath();
-        context.moveTo(100,75);
-        context.lineTo(10,75);
-        context.lineTo(10,0);
-        context.lineTo(100,75);
-        context.stroke();
-    }
-}
+// function draw(){
+//     var canvas = document.getElementById('canvas');
+//     if(canvas.getContext){
+//         var context = canvas.getContext('2d');
+//         context.beginPath();
+//         context.moveTo(100,75);
+//         context.lineTo(10,75);
+//         context.lineTo(10,0);
+//         context.lineTo(100,75);
+//         context.stroke();
+//     }
+// }
 
 function hypotenuseHandler(){
     var sid1 = parseInt(s1.value);
@@ -28,9 +28,9 @@ function hypotenuseHandler(){
     }
     else{
         var temp = sid1**2 + sid2**2;
-        res2.innerText="C = "+Math.sqrt(temp);
+        res2.innerText="C (Hypotenuse) = "+Math.sqrt(temp);
     }
 }
 
-res2.innerHTML="C = √a"+"2".sup()+" + b"+"2".sup();
+res2.innerHTML="Hypotenuse (C = √a"+"2".sup()+" + b"+"2".sup() + ") will be calculated here";
 sub2.addEventListener("click", hypotenuseHandler);
