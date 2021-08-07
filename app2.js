@@ -25,7 +25,7 @@ function radioHandler() {
     inp3.value = "";
     inp3.style.margin = "auto";
     cal.style.margin = "auto";
-    info.style.margin="3rem 0rem 0rem 0rem";
+    info.style.margin="3rem 0rem 2rem 0rem";
     var ele = document.getElementsByName('area-options');
 
     for (i = 0; i < ele.length; i++) {
@@ -86,5 +86,8 @@ function calculateHandler() {
 }
 
 clearDefault();
-submit.addEventListener("click", radioHandler);
+submit.addEventListener("click", () => {
+    radioHandler(),
+    window.scrollTo(0, document.body.offsetHeight)
+});
 cal.addEventListener("click", calculateHandler);
