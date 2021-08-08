@@ -81,7 +81,7 @@ function calculateHandler() {
         info.innerHTML = "Please enter valid inputs !!";
     }
     else {
-        info.innerHTML = "Area = "+area;
+        info.innerHTML = "Area = "+area+" square units";
     }
 }
 

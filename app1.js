@@ -28,7 +28,7 @@ function hypotenuseHandler(){
     }
     else{
         var temp = sid1**2 + sid2**2;
-        res2.innerText="C (Hypotenuse) = "+Math.sqrt(temp);
+        res2.innerText="C (Hypotenuse) = "+Math.sqrt(temp)+" units";
     }
 }
 

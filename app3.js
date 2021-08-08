@@ -19,7 +19,13 @@ function calculate() {
         else
             console.log("incorrect");
     }
-    result.innerHTML="Your score is "+ score;
+    if (score===0){
+        result.innerHTML="Oh no! Your score is "+ score+" :("+"<br/><br/>"+"Better luck next time :)";
+    }
+    else {
+        result.innerHTML="Your score is "+ score+" :)"+"<br/><br/>"+"Good luck !!!";
+    }
+    console.log(score)
 }
 submit.style.margin="0rem";
 result.style.margin="1rem 0rem";
