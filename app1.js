@@ -3,19 +3,6 @@ var s2 = document.querySelector("#ang2");
 var sub2 = document.querySelector("#submit");
 var res2 = document.querySelector("#result2");
 
-// function draw(){
-//     var canvas = document.getElementById('canvas');
-//     if(canvas.getContext){
-//         var context = canvas.getContext('2d');
-//         context.beginPath();
-//         context.moveTo(100,75);
-//         context.lineTo(10,75);
-//         context.lineTo(10,0);
-//         context.lineTo(100,75);
-//         context.stroke();
-//     }
-// }
-
 function hypotenuseHandler(){
     var sid1 = parseInt(s1.value);
     var sid2 = parseInt(s2.value);

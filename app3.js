@@ -10,14 +10,10 @@ function calculate() {
     var score = 0;
     var index = 0;
     const formResults = new FormData(quizForm);
-    console.log(formResults.entries);
     for (let entry of formResults.values()){
         if (entry === correct_answers[index++]){
-            console.log("correct");
             score++;
         }
-        else
-            console.log("incorrect");
     }
     if (score===0){
         result.innerHTML="Oh no! Your score is "+ score+" :("+"<br/><br/>"+"Better luck next time :)";
@@ -25,7 +21,6 @@ function calculate() {
     else {
         result.innerHTML="Your score is "+ score+" :)"+"<br/><br/>"+"Good luck !!!";
     }
-    console.log(score)
 }
 submit.style.margin="0rem";
 result.style.margin="1rem 0rem";
