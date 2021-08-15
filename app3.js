@@ -22,8 +22,8 @@ function calculate() {
         result.innerHTML="Your score is "+ score+" :)"+"<br/><br/>"+"Good luck !!!";
     }
 }
-submit.style.margin="0rem";
-result.style.margin="1rem 0rem";
+submit.style.margin="0rem 0rem 2rem 0rem";
+result.style.margin="1rem 0rem 3rem 0rem";
 quizForm.style.margin="3rem 0rem";
 back_btn.style.margin="0rem";
 submit.addEventListener('click', () => {

@@ -26,4 +26,8 @@ function anglesHandler(){
     }
 }
 
+a1.style.margin="auto";
+a2.style.margin="auto";
+a3.style.margin="auto";
+sub.style.margin="1rem";
 sub.addEventListener("click", anglesHandler);

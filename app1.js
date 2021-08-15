@@ -19,5 +19,6 @@ function hypotenuseHandler(){
     }
 }
 
+s1.style.margin="3rem 0rem 0rem 0rem";
 res2.innerHTML="Hypotenuse (C = √a"+"2".sup()+" + b"+"2".sup() + ") will be calculated here";
 sub2.addEventListener("click", hypotenuseHandler);
